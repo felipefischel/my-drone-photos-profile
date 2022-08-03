@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&family=Roboto:wght@400;700&display=swap');
+
+body {
+  color: lightslategray;
+  background-color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: auto;
+}
+
+h1 {
+  font-size: 18;
+  text-decoration-line: underline;
+  text-decoration-thickness: 8px;
+  text-decoration-color:deepskyblue;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14;
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+  text-decoration-color:darkseagreen;
+}
+
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+  font-size: 18px;
+}
+
+li {
+  list-style: none
+}
+
+a:hover {
+  color: goldenrod
+}
+
+.container {
+  width: 1200;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero {
+  width: 80%;
+  overflow:hidden;
+  margin: 0 auto;
+}
+
+#hero-image {
+  box-shadow: 8px 8px 6px grey;
+  width: 800px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 30px 30px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card-pictures {
+  box-shadow: 4px 4px 3px grey;
+  width: 300px;
+}
+
+.photo-inline {
+  vertical-align: middle;
+}
+
+#instagram {
+ size: 80%;
+}
+
+.secondary-div {
+  background-color:whitesmoke;
+  border-radius: 15px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding-top: 15px;
+}
+
+img:hover,
+img:focus{
+  transform: scale(1.1);
+}
+
+.underline-decoration {
+  text-decoration-line: underline;
+  text-decoration-thickness: 8px;
+  text-decoration-color:deepskyblue;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
